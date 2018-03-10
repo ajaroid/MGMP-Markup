@@ -51,3 +51,18 @@ body {
     float: left;
     font-size: 12px;
 }
+
+/* form */
+
+.form-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.form-group {
+
+}
+.submit {
+    display: block;
+    margin-top: 20px;        
+}
