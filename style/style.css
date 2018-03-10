@@ -70,12 +70,21 @@ body {
 /* view */
 
 .view-wrapper {
-
+   width: 650px;
+}
+.view-inline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+table {
+    min-width: 650px;
+}
 table, th, td {
     border: 1px solid #999999;
     border-collapse: collapse;
+
 }
 th, td {
     padding: 10px 20px;
