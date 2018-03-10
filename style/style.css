@@ -81,14 +81,31 @@ body {
     justify-content: space-between;
 }
 
-table {
+.view-wrapper table {
     min-width: 650px;
 }
-table, th, td {
+.view-wrapper table, .view-wrapper th, .view-wrapper td {
     border: 1px solid #999999;
     border-collapse: collapse;
 
 }
-th, td {
+.view-wrapper th, .view-wrapper td {
     padding: 10px 20px;
+}
+
+/* detail */
+
+.detail-wrapper {
+    padding: 20px;
+}
+
+.detail-wrapper table {
+     min-width: 300px;
+}
+
+.detail-wrapper table, .detail-wrapper th, .detail-wrapper td {
+    padding: 10px 20px 10px 0;
+}
+.detail-wrapper .title {
+    font-weight: bold;
 }
