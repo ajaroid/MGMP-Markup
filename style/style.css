@@ -1,4 +1,5 @@
 body {
+    font-family: sans-serif;
     margin: auto;
 }
 
@@ -8,7 +9,7 @@ body {
     height: 100%;
     margin: auto;
     border: 1px solid #999999;
-    min-height: 400px;
+    min-height: 100vh;
 }
 .header {
     line-height: 50px;
@@ -20,14 +21,18 @@ body {
 .wrapper {
     width: 100%;
     background-color: #fff;
-    min-height: 400px;
+    min-height: calc(100vh - 100px);
 }
 .sidebar {
     width: 30%;
-    min-height: 400px;
+    /* min-height: 400px; */
+    min-height: calc(100vh - 100px);
     float: left;
     background-color: #ecf0f1;
     display: block;
+}
+.sidebar ul {
+    list-style: none;
 }
 .sidebar ul li {
     line-height: 30px;
@@ -40,6 +45,9 @@ body {
 }
 .content .space {
     padding: 20px;
+}
+.clear {
+    clear: both;
 }
 .footer {
     line-height: 30px;
@@ -64,7 +72,7 @@ body {
 }
 .submit {
     display: block;
-    margin-top: 20px;        
+    margin-top: 20px;
 }
 .form-inline {
     margin-bottom: 15px;
